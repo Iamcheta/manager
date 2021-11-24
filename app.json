@@ -54,7 +54,7 @@
     },
     "PORT": {
       "description": "Port to use for your webhooks",
-      "value": "8443"
+      "value": "8080"
     },
     "DEL_CMDS": {
       "description": "Whether to delete commands from users which don't have rights to use that command",
@@ -77,7 +77,7 @@
     {
       "plan": "heroku-postgresql",
       "options": {
-        "version": "10"
+        "version": "13"
       }
     }
   ]
